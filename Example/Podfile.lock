@@ -1,0 +1,16 @@
+PODS:
+  - URLPreviewPod (0.1.0)
+
+DEPENDENCIES:
+  - URLPreviewPod (from `../`)
+
+EXTERNAL SOURCES:
+  URLPreviewPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  URLPreviewPod: 752ff68c93a0e6e089c4d62e9a093e7274c8ddb7
+
+PODFILE CHECKSUM: d783b5845eb14c4f1f5633108a2c9276a63f4ad2
+
+COCOAPODS: 1.2.0

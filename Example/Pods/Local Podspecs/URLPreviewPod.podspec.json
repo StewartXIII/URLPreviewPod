@@ -1,0 +1,22 @@
+{
+  "name": "URLPreviewPod",
+  "version": "0.1.0",
+  "summary": "A short description of URLPreviewPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Stewart/URLPreviewPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Stewart": "rulerxiii@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Stewart/URLPreviewPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "URLPreviewPod/Classes/**/*"
+}
