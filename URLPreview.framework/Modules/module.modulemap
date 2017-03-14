@@ -1,0 +1,6 @@
+framework module URLPreview {
+  umbrella header "URLPreview.h"
+
+  export *
+  module * { export * }
+}
