@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.platform     = :ios, '8.0'
 
   # s.source_files = 'URLPreviewPod/Classes/**/*'
   
@@ -39,7 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = ''
-  s.vendored_frameworks = 'URLPreviewPod/*.{framework}'
   s.libraries  = 'xml2'
-  # s.dependency ''
+  s.vendored_frameworks = 'URLPreviewPod/*.framework'
 end
