@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Stewart' => 'rulerxiii@gmail.com' }
-  s.source           = { :git => 'https://StewartChang@bitbucket.org/StewartChang/urlpreview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/StewartXIII/URLPreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,7 +38,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = ''
-  # s.frameworks = ''
   s.libraries  = 'xml2'
-  s.vendored_frameworks = 'URLPreviewPod/Frameworks/*.{framework}'
+  s.vendored_frameworks = 'URLPreviewPod/Frameworks/URLPreview.framework'
 end
