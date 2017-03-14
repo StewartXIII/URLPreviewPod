@@ -1,6 +1,0 @@
-framework module Pods_URLPreviewPod_Tests {
-  umbrella header "Pods-URLPreviewPod_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

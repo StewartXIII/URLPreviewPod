@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "94C777F84C74BC214E10734057EA2B5E7A2CEC57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FECDAB7A8AB863124FFE50FAAE31412961A7A87" : 9223372036854775807,
+    "94C777F84C74BC214E10734057EA2B5E7A2CEC57" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF3E7C24-C1AA-4988-8CC7-87C724EA3BA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FECDAB7A8AB863124FFE50FAAE31412961A7A87" : "",
+    "94C777F84C74BC214E10734057EA2B5E7A2CEC57" : "URLPreviewPod\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "URLPreviewPod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/URLPreviewPod.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/1.34.109.87\/volume1\/NAS_GIT\/CathayHealthcare\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FECDAB7A8AB863124FFE50FAAE31412961A7A87"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/StewartXIII\/URLPreview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94C777F84C74BC214E10734057EA2B5E7A2CEC57"
+    }
+  ]
+}

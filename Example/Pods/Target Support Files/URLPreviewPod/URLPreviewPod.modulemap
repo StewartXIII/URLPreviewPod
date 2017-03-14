@@ -1,6 +1,0 @@
-framework module URLPreviewPod {
-  umbrella header "URLPreviewPod-umbrella.h"
-
-  export *
-  module * { export * }
-}

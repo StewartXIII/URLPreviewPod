@@ -16,9 +16,9 @@
 		0D20095376EBDD1274FF0A00B6513D4B /* Pods-URLPreviewPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLPreviewPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16A2CE5E78A783ABDA7B6DEEE31583D1 /* Pods-URLPreviewPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URLPreviewPod_Example-resources.sh"; sourceTree = "<group>"; };
 		37296CB8C3143BCB50B0903963368971 /* Pods-URLPreviewPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URLPreviewPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		85CB71667AABA942A8E974A8198739E8 /* Pods_URLPreviewPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLPreviewPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CB71667AABA942A8E974A8198739E8 /* Pods_URLPreviewPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_URLPreviewPod_Example.framework; path = "Pods-URLPreviewPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E99424756EBC7CAA404661AED2EF9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6CAEA9FDBE8BB69BBFA9BA76FCA36FE /* Pods-URLPreviewPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URLPreviewPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B1ED6C5D3427621E2D7F9239B3C11870 /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = URLPreviewPod/URLPreview.framework; sourceTree = "<group>"; };
 		B28BAA8D0C8F09929D222CC1BF7EE96B /* Pods-URLPreviewPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLPreviewPod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -26,7 +26,7 @@
 		CC1669ACEB9B98F56C4F21DD58BF193B /* Pods-URLPreviewPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URLPreviewPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCF9F3E2C2612E49B82B3C0A0FDEBB76 /* Pods-URLPreviewPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URLPreviewPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3B41708F5BB8EA1CB70EA56F778060D /* Pods-URLPreviewPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URLPreviewPod_Example-dummy.m"; sourceTree = "<group>"; };
-		F298F197B67074EB1C92F0956AA3EEDB /* Pods-URLPreviewPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-URLPreviewPod_Example.modulemap"; sourceTree = "<group>"; };
+		F298F197B67074EB1C92F0956AA3EEDB /* Pods-URLPreviewPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-URLPreviewPod_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,11 +295,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/URLPreviewPod\"",
-				);
 				INFOPLIST_FILE = "Target Support Files/Pods-URLPreviewPod_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -335,11 +330,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/URLPreviewPod\"",
-				);
 				INFOPLIST_FILE = "Target Support Files/Pods-URLPreviewPod_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
