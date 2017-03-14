@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = ''
   # s.frameworks = ''
   s.libraries  = 'xml2'
-  s.vendored_frameworks = 'URLPreviewPod/Frameworks/URLPreview.framework'
+  s.vendored_frameworks = 'URLPreviewPod/Frameworks/*.{framework}'
 end
