@@ -19,6 +19,6 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "vendored_frameworks": "URLPreview.framework",
+  "vendored_frameworks": "URLPreviewPod/Frameworks/*.framework",
   "libraries": "xml2"
 }

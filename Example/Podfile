@@ -1,5 +1,3 @@
-use_frameworks!
-
 target 'URLPreviewPod_Example' do
   pod 'URLPreviewPod', :path => '../'
 end

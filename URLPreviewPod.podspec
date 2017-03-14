@@ -31,13 +31,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
-  # s.source_files = 'URLPreviewPod/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'URLPreviewPod' => ['URLPreviewPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.vendored_frameworks = 'URLPreview.framework'
+  s.vendored_frameworks = 'URLPreviewPod/Frameworks/*.framework'
   s.libraries  = 'xml2'
 end
