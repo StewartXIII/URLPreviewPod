@@ -15,12 +15,12 @@
 /* Begin PBXFileReference section */
 		0D20095376EBDD1274FF0A00B6513D4B /* Pods-URLPreviewPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLPreviewPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16A2CE5E78A783ABDA7B6DEEE31583D1 /* Pods-URLPreviewPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URLPreviewPod_Example-resources.sh"; sourceTree = "<group>"; };
+		243A6F7F7733BAE17748EEF967267FBD /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = URLPreviewPod/Frameworks/URLPreview.framework; sourceTree = "<group>"; };
 		37296CB8C3143BCB50B0903963368971 /* Pods-URLPreviewPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URLPreviewPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		85CB71667AABA942A8E974A8198739E8 /* Pods_URLPreviewPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_URLPreviewPod_Example.framework; path = "Pods-URLPreviewPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E99424756EBC7CAA404661AED2EF9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6CAEA9FDBE8BB69BBFA9BA76FCA36FE /* Pods-URLPreviewPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URLPreviewPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B1ED6C5D3427621E2D7F9239B3C11870 /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = URLPreviewPod/URLPreview.framework; sourceTree = "<group>"; };
 		B28BAA8D0C8F09929D222CC1BF7EE96B /* Pods-URLPreviewPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLPreviewPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC1669ACEB9B98F56C4F21DD58BF193B /* Pods-URLPreviewPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URLPreviewPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -41,14 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010CE646FBFD6D283E586C79E3AA47CE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B1ED6C5D3427621E2D7F9239B3C11870 /* URLPreview.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3974E42DF150A02678B06934889AA57F /* Pods-URLPreviewPod_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +89,7 @@
 		88B229C7B3260B5E3120FC268C029E64 /* URLPreviewPod */ = {
 			isa = PBXGroup;
 			children = (
-				010CE646FBFD6D283E586C79E3AA47CE /* Frameworks */,
+				B730BBEF28BBB4ACEA3B11ECAC01152B /* Frameworks */,
 			);
 			name = URLPreviewPod;
 			path = ../..;
@@ -109,6 +101,14 @@
 				85CB71667AABA942A8E974A8198739E8 /* Pods_URLPreviewPod_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B730BBEF28BBB4ACEA3B11ECAC01152B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				243A6F7F7733BAE17748EEF967267FBD /* URLPreview.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {

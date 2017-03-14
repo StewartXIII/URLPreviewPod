@@ -18,10 +18,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8D0247011E77E122006EBA57 /* URLPreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0247001E77E122006EBA57 /* URLPreview.framework */; };
+		8D0247021E77E12C006EBA57 /* URLPreview.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8D0247001E77E122006EBA57 /* URLPreview.framework */; };
 		8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */; };
 		8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */; };
-		8DA202E51E77DCA500BF2CC8 /* URLPreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0098911E77DBFF000996FD /* URLPreview.framework */; };
-		8DA202E61E77DCAD00BF2CC8 /* URLPreview.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8D0098911E77DBFF000996FD /* URLPreview.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +59,7 @@
 		8056EAD0190CFB15977BB959 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D0098911E77DBFF000996FD /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = ../URLPreviewPod/URLPreview.framework; sourceTree = "<group>"; };
+		8D0247001E77E122006EBA57 /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = ../URLPreviewPod/Frameworks/URLPreview.framework; sourceTree = "<group>"; };
 		8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		BDD1CB0379305D4428148ED2 /* URLPreviewPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = URLPreviewPod.podspec; path = ../URLPreviewPod.podspec; sourceTree = "<group>"; };
@@ -69,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA202E51E77DCA500BF2CC8 /* URLPreview.framework in Frameworks */,
+				8D0247011E77E122006EBA57 /* URLPreview.framework in Frameworks */,
 				8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */,
 				8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */,
 				452211F97C89B766931CFE6B /* Pods_URLPreviewPod_Example.framework in Frameworks */,
@@ -111,6 +112,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D0247001E77E122006EBA57 /* URLPreview.framework */,
 				8D0098911E77DBFF000996FD /* URLPreview.framework */,
 				8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */,
 				8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */,
@@ -268,7 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA202E61E77DCAD00BF2CC8 /* URLPreview.framework in Resources */,
+				8D0247021E77E12C006EBA57 /* URLPreview.framework in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

@@ -18,6 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
+  "requires_arc": true,
+  "public_header_files": "URLPreviewPod/Frameworks/URLPreview.framework/Headers/*.h",
   "libraries": "xml2",
-  "vendored_frameworks": "URLPreviewPod/*.framework"
+  "vendored_frameworks": "URLPreviewPod/Frameworks/URLPreview.framework"
 }

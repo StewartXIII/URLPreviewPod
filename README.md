@@ -25,6 +25,14 @@ pod "URLPreviewPod"
 2.Build Phases -> Copy Boundle Resources -> Add this Framework
 
 ## Use
+```objective-c
+#import <URLPreview/Preview.h>
+
+Preview *preview = [[Preview alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 100)];
+preview.center = self.view.center;
+preview.delegate = self;
+[preview showURLPreviewWithURL:@"https://github.com/StewartXIII/URLPreview"];
+```
 ### 使用 :
 1.請先用initWithFrame初始化物件(最低尺寸 -> 寬：>=300，高：>=100)
 
