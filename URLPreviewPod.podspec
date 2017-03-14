@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'URLPreviewPod'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Display url preview'
 
 # This description is used to generate tags and improve search results.
@@ -25,10 +25,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Stewart' => 'rulerxiii@gmail.com' }
-  s.source           = { :git => 'https://github.com/StewartXIII/URLPreview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://StewartChang@bitbucket.org/StewartChang/urlpreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '8.0'
 
   s.source_files = 'URLPreviewPod/Classes/**/*'
   
@@ -37,6 +38,8 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Objective-C-HMTL-Parser'
+  # s.frameworks = ''
+  s.vendored_frameworks = 'URLPreviewPod/*.{framework}'
+  s.libraries  = 'xml2'
+  # s.dependency ''
 end

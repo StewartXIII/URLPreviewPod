@@ -8,22 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		452211F97C89B766931CFE6B /* Pods_URLPreviewPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A26A32404307FA21E3085D /* Pods_URLPreviewPod_Example.framework */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* URLPreviewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* URLPreviewAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* URLPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* URLPreviewViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6DFDFE1A674CC2BC9624A08C /* Pods_URLPreviewPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D83574C0FFF45957CEFE96A /* Pods_URLPreviewPod_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */; };
+		8D8626BD1E77C4F200A2DFB2 /* URLPreview.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8D8626BC1E77C4F200A2DFB2 /* URLPreview.framework */; };
+		8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2013B7257C35571B7BBD1005 /* Pods-URLPreviewPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLPreviewPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLPreviewPod_Tests/Pods-URLPreviewPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F2CC276C4E4BECF22D963D3 /* Pods-URLPreviewPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLPreviewPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLPreviewPod_Example/Pods-URLPreviewPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38A26A32404307FA21E3085D /* Pods_URLPreviewPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLPreviewPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5C3D3D2D8D53CD831AB367 /* Pods-URLPreviewPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLPreviewPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLPreviewPod_Tests/Pods-URLPreviewPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* URLPreviewPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLPreviewPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* URLPreviewPod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLPreviewPod-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,9 +55,11 @@
 		656014A72E410A65D58A03D9 /* Pods-URLPreviewPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLPreviewPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLPreviewPod_Example/Pods-URLPreviewPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		65659B29297A6F14C1EB0393 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D83574C0FFF45957CEFE96A /* Pods_URLPreviewPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLPreviewPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8056EAD0190CFB15977BB959 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8D8626BC1E77C4F200A2DFB2 /* URLPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLPreview.framework; path = ../URLPreviewPod/URLPreview.framework; sourceTree = "<group>"; };
+		8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		BDD1CB0379305D4428148ED2 /* URLPreviewPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = URLPreviewPod.podspec; path = ../URLPreviewPod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,9 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */,
+				8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */,
 				452211F97C89B766931CFE6B /* Pods_URLPreviewPod_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,9 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6DFDFE1A674CC2BC9624A08C /* Pods_URLPreviewPod_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +88,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				8D8626BC1E77C4F200A2DFB2 /* URLPreview.framework */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for URLPreviewPod */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -119,12 +110,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
+				8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */,
+				8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				38A26A32404307FA21E3085D /* Pods_URLPreviewPod_Example.framework */,
-				7D83574C0FFF45957CEFE96A /* Pods_URLPreviewPod_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +179,6 @@
 			children = (
 				2F2CC276C4E4BECF22D963D3 /* Pods-URLPreviewPod_Example.debug.xcconfig */,
 				656014A72E410A65D58A03D9 /* Pods-URLPreviewPod_Example.release.xcconfig */,
-				2013B7257C35571B7BBD1005 /* Pods-URLPreviewPod_Tests.debug.xcconfig */,
-				5B5C3D3D2D8D53CD831AB367 /* Pods-URLPreviewPod_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +210,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "URLPreviewPod_Tests" */;
 			buildPhases = (
-				3B9106363C49F7EB529FF9EF /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				65790090D419A408762B3EF5 /* [CP] Embed Pods Frameworks */,
-				0383C1D6F95AFCD6F32D6A4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8626BD1E77C4F200A2DFB2 /* URLPreview.framework in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -300,21 +285,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0383C1D6F95AFCD6F32D6A4E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLPreviewPod_Tests/Pods-URLPreviewPod_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2647071BD9BA0F8C1186806F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,36 +298,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLPreviewPod_Example/Pods-URLPreviewPod_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B9106363C49F7EB529FF9EF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		65790090D419A408762B3EF5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLPreviewPod_Tests/Pods-URLPreviewPod_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73B1B7570A64438E38E6DC4A /* [CP] Check Pods Manifest.lock */ = {
@@ -530,6 +470,12 @@
 				DEVELOPMENT_TEAM = U4Z7B5VKGU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URLPreviewPod/URLPreviewPod-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/URLPreviewPod\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "URLPreviewPod/URLPreviewPod-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -546,6 +492,12 @@
 				DEVELOPMENT_TEAM = U4Z7B5VKGU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URLPreviewPod/URLPreviewPod-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/URLPreviewPod\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "URLPreviewPod/URLPreviewPod-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -556,7 +508,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2013B7257C35571B7BBD1005 /* Pods-URLPreviewPod_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -580,7 +531,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B5C3D3D2D8D53CD831AB367 /* Pods-URLPreviewPod_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'URLPreviewPod_Example' do
   pod 'URLPreviewPod', :path => '../'
-
-  target 'URLPreviewPod_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
