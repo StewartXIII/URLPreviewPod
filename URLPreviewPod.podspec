@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'URLPreviewPod' => ['URLPreviewPod/Assets/*.png']
   # }
 
-  s.public_header_files = 'URLPreviewPod/Frameworks/URLPreview.framework/Headers/*.h'
+  # s.public_header_files = ''
   # s.frameworks = ''
   s.libraries  = 'xml2'
   s.vendored_frameworks = 'URLPreviewPod/Frameworks/URLPreview.framework'
