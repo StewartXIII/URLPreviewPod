@@ -14,8 +14,8 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8D3F6ACA1E7835DD00212A64 /* URLPreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6AC91E7835DD00212A64 /* URLPreview.framework */; };
-		8D3F6ACB1E7835E200212A64 /* URLPreview.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F6AC91E7835DD00212A64 /* URLPreview.framework */; };
+		8D079E9F1E7844D6006CD371 /* URLPreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6AC91E7835DD00212A64 /* URLPreview.framework */; };
+		8D079EA01E7844E0006CD371 /* URLPreview.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F6AC91E7835DD00212A64 /* URLPreview.framework */; };
 		8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8626BA1E77C4CC00A2DFB2 /* libxml2.tbd */; };
 		8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B9BC61E77BA3F00DD7451 /* SafariServices.framework */; };
 		A9BC9116BE9D27F94FE53D70 /* libPods-URLPreviewPod_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC39EE3D2B93F7AB4C67B45 /* libPods-URLPreviewPod_Example.a */; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3F6ACA1E7835DD00212A64 /* URLPreview.framework in Frameworks */,
+				8D079E9F1E7844D6006CD371 /* URLPreview.framework in Frameworks */,
 				8D8626BB1E77C4CC00A2DFB2 /* libxml2.tbd in Frameworks */,
 				8D9B9BC71E77BA3F00DD7451 /* SafariServices.framework in Frameworks */,
 				A9BC9116BE9D27F94FE53D70 /* libPods-URLPreviewPod_Example.a in Frameworks */,
@@ -223,7 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3F6ACB1E7835E200212A64 /* URLPreview.framework in Resources */,
+				8D079EA01E7844E0006CD371 /* URLPreview.framework in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

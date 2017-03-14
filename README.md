@@ -6,6 +6,7 @@
 
 ## Installation
 
+(Is not ready for use cocoapods, please download add framework in your project)
 URLPreviewPod is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
