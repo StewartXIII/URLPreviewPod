@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'URLPreviewPod'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Display url preview'
 
 # This description is used to generate tags and improve search results.
@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'URLPreviewPod/Frameworks/*.framework'
   s.libraries  = 'xml2'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '/usr/include/libxml2' }
 end
