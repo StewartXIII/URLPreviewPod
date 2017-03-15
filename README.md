@@ -23,7 +23,7 @@
 <img src="ExampleImage/example04.png" width="320">
 
 ## Installation
-###Use CocoaPods :
+### Use CocoaPods :
 
 (還沒準備好)使用cocoapods安裝，加入指令到專案的Podfile:
 
@@ -37,7 +37,7 @@ pod "URLPreviewPod"
 
 ***
 
-###Add With Framework :
+### Add With Framework :
 
 下載專案複製Framework進入你的專案
 
