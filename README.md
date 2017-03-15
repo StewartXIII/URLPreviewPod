@@ -25,9 +25,8 @@
 ## Installation
 ### Use CocoaPods :
 
-(還沒準備好)使用cocoapods安裝，加入指令到專案的Podfile:
+使用cocoapods安裝，加入指令到專案的Podfile:
 
-(Is not ready for use cocoapods, please download add framework in your project)
 URLPreviewPod is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -91,6 +90,13 @@ Preview *preview = [[Preview alloc] initWithFrame:CGRectMake(0, 0, self.view.bou
 preview.center = self.view.center;
 preview.delegate = self;
 [preview showURLPreviewWithURL:@"https://github.com/StewartXIII/URLPreview"];
+```
+
+#### Change Color
+```objective-c
+preview.titleColorHexString = @"#fe5b18";
+preview.descriptionColorHexString = @"#7c6262";
+preview.siteNameColorHexString = @"#2918df";
 ```
 
 ## Special Thanks
