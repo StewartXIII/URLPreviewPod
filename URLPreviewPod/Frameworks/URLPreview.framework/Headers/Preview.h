@@ -35,6 +35,12 @@
 @property (nonatomic, weak) NSString *siteNameColorHexString;
 
 /*
+ // 按鈕長壓時的顏色
+ // Button long press Color With HexString
+ */
+@property (nonatomic, weak) NSString *longPressColorHexString;
+
+/*
 // 是否存儲預覽圖片
 // did save Image Preview
 */

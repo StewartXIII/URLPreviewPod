@@ -35,6 +35,7 @@
 //    preview.titleColorHexString = @"#fe5b18";
 //    preview.descriptionColorHexString = @"#7c6262";
 //    preview.siteNameColorHexString = @"#2918df";
+//    preview.longPressColorHexString = @"#f38181";
     [self.view addSubview:preview];
     [preview showURLPreviewWithURL:@"https://github.com/StewartXIII/URLPreview"];
 }
