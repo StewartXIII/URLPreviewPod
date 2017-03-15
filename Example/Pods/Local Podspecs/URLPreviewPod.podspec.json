@@ -20,5 +20,8 @@
   },
   "requires_arc": true,
   "vendored_frameworks": "URLPreviewPod/Frameworks/*.framework",
-  "libraries": "xml2"
+  "libraries": "xml2",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  }
 }

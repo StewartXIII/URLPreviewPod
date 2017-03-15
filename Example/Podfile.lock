@@ -6,10 +6,10 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   URLPreviewPod:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  URLPreviewPod: 76f1fd13fea47fab5455fac7fd96ea2ac91a170e
+  URLPreviewPod: 6758b9e90ff9397f7f2cb24fe9fce90b81fd847a
 
 PODFILE CHECKSUM: 709e38026cfb2b7be46d66982368e2861ef5ea13
 
