@@ -24,9 +24,9 @@
 
 ## Installation
 ###Use CocoaPods :
+
 (還沒準備好)使用cocoapods安裝，加入指令到專案的Podfile:
 
-***
 (Is not ready for use cocoapods, please download add framework in your project)
 URLPreviewPod is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -35,11 +35,15 @@ it, simply add the following line to your Podfile:
 pod "URLPreviewPod"
 ```
 
+***
+
 ###Add With Framework :
+
 下載專案複製Framework進入你的專案
 
-***
 Download Project and copy Framework in your Project
+
+***
 
 ### 安裝 :
 
@@ -49,7 +53,6 @@ Download Project and copy Framework in your Project
 
 3.Build Phases -> Copy Boundle Resources -> 新增本Framework
 
-***
 ### Install :
 
 1.Linked Framworks and Libraries -> Add this Framework and libxml2.(dylib/tbd)
@@ -57,6 +60,8 @@ Download Project and copy Framework in your Project
 2.Build Settings -> Header Search Paths -> Add /usr/include/libxml2
 
 3.Build Phases -> Copy Boundle Resources -> Add this Framework
+
+***
 
 ### 使用 :
 
@@ -68,7 +73,6 @@ Download Project and copy Framework in your Project
 
 4.用showURLPreviewWithURL放入您的網址
 
-***
 ### Use :
 
 1.First use initWithFrame init you'r object(Minimum size -> Width：>=300，Height：>=100)
