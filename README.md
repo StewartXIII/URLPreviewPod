@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/URLPreviewPod.svg?style=flat)](http://cocoapods.org/pods/URLPreviewPod)
 [![License](https://img.shields.io/cocoapods/l/URLPreviewPod.svg?style=flat)](http://cocoapods.org/pods/URLPreviewPod)
 
-![](./ExampleImage/example.gif)
+![](./ExampleImage/example01.gif) ![](./ExampleImage/example02.gif)
 
 ## Layouts
 
@@ -100,6 +100,11 @@ preview.titleColorHexString = @"#fe5b18";
 preview.descriptionColorHexString = @"#7c6262";
 preview.siteNameColorHexString = @"#2918df";
 preview.longPressColorHexString = @"#f38181";
+```
+
+#### Use 3D Touch
+```objective-c
+[preview use3DTouchOnController:self];
 ```
 
 ## Special Thanks

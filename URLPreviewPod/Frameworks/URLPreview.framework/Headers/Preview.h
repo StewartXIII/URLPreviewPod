@@ -59,5 +59,10 @@
 */
 - (void)claerPreviewTemporaryImage;
 
+/*
+// 是否使用3D Touch 顯示
+// Whether to show whith 3D Touch
+*/
+- (void)use3DTouchOnController:(UIViewController *)controller;
 
 @end

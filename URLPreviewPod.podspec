@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'URLPreviewPod'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Display url preview'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/StewartXIII/URLPreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.requires_arc = true
 
+  s.frameworks = 'SafariServices'
   s.vendored_frameworks = 'URLPreviewPod/Frameworks/*.framework'
   s.libraries  = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '/usr/include/libxml2' }

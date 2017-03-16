@@ -1,6 +1,6 @@
 {
   "name": "URLPreviewPod",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "summary": "Display url preview",
   "description": "This framework is for displaying preview of URL",
   "homepage": "https://github.com/StewartXIII/URLPreview",
@@ -13,15 +13,16 @@
   },
   "source": {
     "git": "https://github.com/StewartXIII/URLPreview.git",
-    "tag": "1.0.0"
+    "tag": "1.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
+  "frameworks": "SafariServices",
   "vendored_frameworks": "URLPreviewPod/Frameworks/*.framework",
   "libraries": "xml2",
   "xcconfig": {
-    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+    "HEADER_SEARCH_PATHS": "/usr/include/libxml2"
   }
 }

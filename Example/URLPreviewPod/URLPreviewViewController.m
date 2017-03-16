@@ -36,6 +36,7 @@
 //    preview.descriptionColorHexString = @"#7c6262";
 //    preview.siteNameColorHexString = @"#2918df";
 //    preview.longPressColorHexString = @"#f38181";
+    [preview use3DTouchOnController:self];
     [self.view addSubview:preview];
     [preview showURLPreviewWithURL:@"https://github.com/StewartXIII/URLPreview"];
 }
@@ -49,8 +50,10 @@
         [self presentViewController:safariVC animated:YES completion:nil];
     }
     else {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Not effective URL" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"Not effective URL" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+        [alertController addAction:action];
+        [self presentViewController:alertController animated:YES completion:nil];
     }
 }
 
